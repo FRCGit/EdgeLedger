@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../EdgeLedger/css/utilities.css">
+  <link rel="stylesheet" href="../EdgeLedger/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Post One</title>
+</head>
+
+
+
+<body id="home">
+
+  <!-- Navbar -->
+  <header class="hero blog">
+    <div class="navbar top" id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span>Ledger
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#cases">Cases</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Hero Page -->
+    <div class="content">
+      <h1>Blog</h1>
+    </div>
+  </header>
+
+
+
+  <main>
+    <section class="post">
+      <h2>Blog Post One</h2>
+      <p class="meta">
+        <i class="fas fa-user"></i> Posted by <strong>Jane Doe</strong> | November 1 2021
+      </p>
+      <img src="../EdgeLedger/image_resources/blog/blog1.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab eveniet doloremque blanditiis omnis,
+        neque totam praesentium quas molestiae, officiis, facilis minima laudantium culpa. Eveniet corrupti
+        repudiandae quisquam veniam quidem?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam impedit amet libero rerum fuga accusantium
+        earum sapiente cupiditate porro iure reprehenderit, quas, ipsum architecto ipsam natus. Placeat enim tempore
+        accusamus distinctio? Nemo, repellat? Repudiandae pariatur architecto aut fuga facilis unde, laudantium quae
+        reiciendis expedita voluptatem. Voluptatem alias quidem cumque iusto ea! Voluptatum animi nobis fugiat.
+        Consequuntur quae sunt numquam quidem.
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta perferendis, alias, commodi ipsa
+        earum, deserunt illum quibusdam dolore dolor fugit similique doloribus placeat laudantium atque molestias.
+        Cumque modi officia, exercitationem suscipit incidunt ex praesentium accusantium iusto nemo impedit laudantium
+        sapiente esse? Voluptatum labore totam a sed, ad magnam vitae.
+      </p>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2021 - EdgeLedger </p>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+
+    window.onscroll = function () {
+      if (window.pageYOffset > 100) {
+        navbar.classList.remove('top');
+      } else {
+        navbar.classList.add('top');
+      }
+    }
+
+  </script>
+
+
+
+</body>
+
+</html>
